@@ -14,6 +14,6 @@ class Template extends Smarty{
         $this->setCacheDir( '/Users/jncormier/Sites/git-checkout/Edit.or/vendor/smarty/cache/' );	
         $this->setConfigDir( '/Users/jncormier/Sites/git-checkout/Edit.or/vendor/smarty/configs/' );	
 
-        $this->assign( 'title' , 'Emporium' );
+        $this->assign( 'title' , 'Edit.or' );
     }
 }

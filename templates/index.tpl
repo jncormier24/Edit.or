@@ -1,9 +1,4 @@
-<html>
-    <head>
-        <meta charset="utf8">
-        <title>{$title}</title>
-    </head>
-    <body>
+{include file="header.tpl"}
         <h1>Hello from Edit.or</h1>
     </body>
 </html>
