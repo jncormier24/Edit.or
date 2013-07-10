@@ -1,3 +1,5 @@
 .htaccess
+templates_c/*
 composer*
 /nbproject/private/
+.DS_Store
