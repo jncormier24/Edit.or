@@ -5,4 +5,4 @@
 require_once __DIR__ . '/composer' . '/autoload_real.php';
 require_once __DIR__ . '/dBug.php';
 require_once __DIR__ . '/Edit/Template/Template.php';
-return ComposerAutoloaderInit62268fb8609943692a101761577405bd::getLoader();
+return ComposerAutoloaderInit0d7a6560bbc98f94bd8ce9296eaf7194::getLoader();

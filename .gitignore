@@ -1,3 +1,5 @@
 .htaccess
 composer*
-/nbproject/private/
+template_c/*
+cache/*
+.gitignore

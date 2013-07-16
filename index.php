@@ -8,9 +8,12 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $klein = new \Klein\Klein();
 
-$klein->respond( function(){
+$klein->respond( function( $request, $response, $app ){
     $app->tpl = new Template();
-    $app->tpl->display( 'index.tpl' );
 });
 
-$klein->dispatch( $_SERVER['PATH_INFO'] );
+$klein->respond( '/', function( $request, $response, $app ){
+    $app->tpl->display( 'index.tpl' );
+}
+
+$klein->dispatch(  );
